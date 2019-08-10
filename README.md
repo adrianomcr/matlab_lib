@@ -12,11 +12,11 @@ Files can be obtained with the following command:
 After clonning this repository to apath in you computer
 On the Matlab command window type
 
-``addpath('/home/adrianomcr/matlab_lib/')``
+``addpath('YOUR_PATH/matlab_lib/')``
 
-``addpath('/home/adrianomcr/matlab_lib/functions')``
+``addpath('YOUR_PATH/matlab_lib/functions')``
 
-``addpath('/home/adrianomcr/matlab_lib/scripts')``
+``addpath('YOUR_PATH/matlab_lib/scripts')``
 
 ``savepath``
 
@@ -33,3 +33,5 @@ On the Matlab command window type
 - plot_frame:
 
 - plot_cylinder:
+
+- plot_block:
