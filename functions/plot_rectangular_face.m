@@ -1,22 +1,16 @@
 
 
-
-
-
-
-
-
-
-%function [] = plot_rectangle(H,size,wid,color)
+%function [] = plot_rectangular_face(H,size,color,alpha,lineStyle)
 %
 %H - homogeneous transformation
 %size - Vector with the width(y) and height(z) of the square
-%wid - Width of the line
 %color - Color [r g b] in [0, 1]
+%alpha - Transparence [0, 1]
+%lineStyle - Line style
 
 %Written by: Adriano Rezende
 
-function [] = plot_rectangle(H,size,wid,color)
+function [] = plot_rectangular_face(H,size,color,alpha,lineStyle)
 
 
     
@@ -29,7 +23,7 @@ function [] = plot_rectangle(H,size,wid,color)
     
     face = H*face;
     
-    plot3(face(1,:),face(2,:),face(3,:),'Color',color,'LineWidth',wid)
+    fill3(face(1,:),face(2,:),face(3,:),'w','FaceColor',color,'FaceAlpha',alpha,'LineStyle',lineStyle)
     
     
 
