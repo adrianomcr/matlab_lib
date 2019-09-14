@@ -2,7 +2,7 @@
 
 %This script is an example of how to make an animation with a drone
 %It is only an example, no dynamics is being considered here
-
+%
 %Written by: Adriano Rezende
 
 

@@ -10,6 +10,7 @@ Files can be obtained with the following command:
 ## Installation
 
 After clonning this repository to apath in you computer
+
 On the Matlab command window type
 
 ``addpath('YOUR_PATH/matlab_lib/')``
