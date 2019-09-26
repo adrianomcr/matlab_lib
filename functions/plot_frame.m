@@ -2,7 +2,7 @@
 
 
 % 
-%function [handle] = plot_frame(H,len,wid,fontsize)
+%function [handle] = plot_frame(H,len,wid)
 %
 %handle - Vector of 3 handles for the plots
 %

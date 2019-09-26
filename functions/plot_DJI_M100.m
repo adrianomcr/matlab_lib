@@ -1,6 +1,6 @@
 %function [handle] = plot_DJI_M100(H)
 %
-%This function pltsthea DJI M100 drone
+%This function plots the DJI M100 drone
 %
 %Inputs
 %H - homogeneous transformation

@@ -55,8 +55,13 @@ On the Matlab command window type
 
 - ``set_frame.m``: Change the pose of a frame plotted before
 
+- ``set_frame_str.m``: Change the pose of a frame plotted before together with a name string
 
+- ``orthogonize.m``: Orthogonize a 3d matrix and normalize its columns
 
+- ``plot_DJI_M100.m``: Plot a DJI M100 drone
+
+- ``set_DJI_M100.m``: Change the pose of a DJI M100 drone plotted before
 
 
 

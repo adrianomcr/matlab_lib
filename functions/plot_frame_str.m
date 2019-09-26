@@ -2,6 +2,8 @@
 % 
 %function [] = plot_frame_str(H,str,len,wid,fontsize)
 %
+%handle - Vector of 3 handles for the plots and a handle of text
+%
 %H - homogeneous transformation
 %str - String with the name of the frame
 %len - Length of the plot
@@ -12,7 +14,7 @@
 
 %Written by: Adriano Rezende
 
-function [] = plot_frame_str(H,str,len,wid,fontsize)
+function [handle] = plot_frame_str(H,str,len,wid,fontsize)
 % function plot_frame_str(p,q,str,)
 
 
@@ -30,11 +32,11 @@ function [] = plot_frame_str(H,str,len,wid,fontsize)
 
 
 
-    plot3(x(1,:),x(2,:),x(3,:),'r','LineWidth',wid)
-    plot3(y(1,:),y(2,:),y(3,:),'g','LineWidth',wid)
-    plot3(z(1,:),z(2,:),z(3,:),'b','LineWidth',wid)
+    handle(1) = plot3(x(1,:),x(2,:),x(3,:),'r','LineWidth',wid);
+    handle(2) = plot3(y(1,:),y(2,:),y(3,:),'g','LineWidth',wid);
+    handle(3) = plot3(z(1,:),z(2,:),z(3,:),'b','LineWidth',wid);
 
-    text(z_str(1,:),z_str(2,:),z_str(3,:),str,'FontSize',fontsize,'interpreter','latex')
+    handle(4) = text(z_str(1,:),z_str(2,:),z_str(3,:),str,'FontSize',fontsize,'interpreter','latex');
 
 
 

@@ -1,6 +1,6 @@
 
 % 
-%function [] = plot_cylinder(H,height,radius,color,alpha,n)
+%function [] = plot_cylinder(H,height,radius,color,alpha,n,linestyle)
 %
 %H - homogeneous transformation
 %height - Heighr

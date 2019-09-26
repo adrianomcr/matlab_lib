@@ -9,7 +9,7 @@
 %Outputs
 % -
 %
-%Note:This function should be called after the function plot_drone()
+%Note:This function should be called after the function plot_DJI_M100()
 %
 %Written by: Adriano Rezende
 function [] = set_DJI_M100(H,handle)
