@@ -63,7 +63,9 @@ On the Matlab command window type
 
 - ``set_DJI_M100.m``: Change the pose of a DJI M100 drone plotted before
 
+- ``average_filter``: Causal average filter
 
+- ``average_circular_filter``: Noncausal average filter for periodic signals
 
 
 
