@@ -47,7 +47,7 @@ On the Matlab command window type
 
 - ``plot_rectangle_str.m``: Plot a rectangle and add a name to it
 
-- ``plot_rectangular_face.m``: Plot a 
+- ``plot_rectangular_face.m``: Plot a rectangular face by using fill function
 
 - ``Rot.m``: Create a rotation matrix of a given angle around one of the canonical axes
 
@@ -67,12 +67,19 @@ On the Matlab command window type
 
 - ``average_circular_filter``: Noncausal average filter for periodic signals
 
+- ``plot_dodecahedron.m``: Plot a dodecahedron
+
+- ``set_dodecahedron.m``: Change the position of a dodecahedron
 
 
 
 
 
+## Contact
 
+Adriano Rezende
+
+adrianomcr18@gmail.com
 
 
 
