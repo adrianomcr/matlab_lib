@@ -33,7 +33,7 @@ function [h] = set_dodecahedron(p,handle,r)
                 [-(1-h^2), 0, -(1+h)];
                 [-(1-h^2), 0, (1+h)];
                 [(1-h^2), 0, -(1+h)];
-                [(1-h^2), 0, (1+h)]];
+                [(1-h^2), 0, (1+h)]]/(1+h);
 
     Vertices = r*Vertices + (p(:)*ones(1,20))';
 

@@ -36,7 +36,7 @@ function [h] = plot_dodecahedron(p,r,color,alpha,linestyle)
                 [-(1-h^2), 0, -(1+h)];
                 [-(1-h^2), 0, (1+h)];
                 [(1-h^2), 0, -(1+h)];
-                [(1-h^2), 0, (1+h)]];
+                [(1-h^2), 0, (1+h)]]/(1+h);
 
     Vertices = r*Vertices + (p(:)*ones(1,20))';
             
@@ -54,8 +54,5 @@ function [h] = plot_dodecahedron(p,r,color,alpha,linestyle)
              [6,20,18,2,10]];
 
     h = patch('Faces',Faces,'Vertices',Vertices,'FaceColor',color,'FaceAlpha',alpha,'LineStyle',linestyle);
-
-   
-
     
 end
