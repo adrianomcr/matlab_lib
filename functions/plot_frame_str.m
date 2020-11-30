@@ -36,6 +36,7 @@ function [handle] = plot_frame_str(H,str,len,wid,fontsize)
     handle(2) = plot3(y(1,:),y(2,:),y(3,:),'g','LineWidth',wid);
     handle(3) = plot3(z(1,:),z(2,:),z(3,:),'b','LineWidth',wid);
 
+    
     handle(4) = text(z_str(1,:),z_str(2,:),z_str(3,:),str,'FontSize',fontsize,'interpreter','latex');
 
 

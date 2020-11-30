@@ -75,6 +75,10 @@ On the Matlab command window type
 
 - ``set_dodecahedron.m``: Change the position of a dodecahedron
 
+- ``quat_derivative.m``: Compute the derivative of a quaternion
+
+- ``normalize.m``: Normalize a n dimensional vercor
+
 
 
 
