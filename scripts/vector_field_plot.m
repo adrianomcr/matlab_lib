@@ -19,7 +19,8 @@ xv = ws(1):dx:ws(2);
 yv = ws(3):dy:ws(4);
 
 [X, Y] = meshgrid(xv,yv);
-F = 0*X;
+Fx = 0*X;
+Fy = 0*X;
 
 for i = 1:1:length(xv)
     x = xv(i);
