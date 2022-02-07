@@ -79,6 +79,8 @@ On the Matlab command window type
 
 - ``normalize.m``: Normalize a n dimensional vercor
 
+- ``async_diff.m``: This function performs the difference (xa-xb) of two vectors that are not synchronized on time
+
 
 
 
